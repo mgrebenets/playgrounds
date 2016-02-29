@@ -33,3 +33,27 @@ extension String {
 
 "CollectionCode".lowercaseDictionaryKey // "collectionCode"
 "collectionCode".uppercaseDictionaryKey // "CollectionCode"
+
+let s = "a", q = "3"
+let i = Int(s), j = Int(q)
+print(i)
+print(j)
+
+s as? Int
+q as? Int
+
+let dic: [String: AnyObject] = ["a": "b"]
+
+
+let array: [Int]? = nil
+array?.count
+
+let rowCount: Int = array?.count ?? 0
+
+struct Account {}
+
+class Customer {
+    var accounts: [Account]?
+}
+
+class Customer 
