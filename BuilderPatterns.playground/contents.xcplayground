@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='1-main'/>
+        <page name='2-var'/>
+        <page name='3-mutating-functions'/>
+        <page name='4-transformer-functions'/>
+        <page name='5-copy-constructors'/>
+        <page name='6-payload-objects'/>
+        <page name='7-delegating-to-client-app'/>
+        <page name='8-non-mutating-mutating-functions'/>
+        <page name='9-builder-pattern'/>
+        <page name='10-builder-pattern-with-vars'/>
+        <page name='11-builder-pattern-with-closures'/>
+    </pages>
+</playground>
