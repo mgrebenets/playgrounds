@@ -42,7 +42,7 @@ import UIKit
  */
 
 struct Goal {
-    enum Error: ErrorType {
+    enum GoalError: Error {
         case invalidName
         case invalidAmount
     }
@@ -52,8 +52,8 @@ struct Goal {
     let picture: UIImage?
 
     init(name: String, amount: Double, picture: UIImage? = nil) throws {
-        guard !name.isEmpty else { throw Error.invalidName }
-        guard amount > 0 else { throw Error.invalidAmount }
+        guard !name.isEmpty else { throw GoalError.invalidName }
+        guard amount > 0 else { throw GoalError.invalidAmount }
 
         self.name = name
         self.amount = amount

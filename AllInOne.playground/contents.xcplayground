@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1 - Welcome'/>
+        <page name='Address Type'/>
+        <page name='AEST Date Test'/>
+        <page name='AlertRepresentable'/>
+        <page name='Anagrams'/>
+        <page name='AnyObjectProtocol'/>
+        <page name='Array of Alert Actions'/>
+        <page name='Current Run Loop - URL Request'/>
+        <page name='JSON isEqual'/>
+        <page name='JSON Literal'/>
+        <page name='JSON with Any'/>
+        <page name='Appending Path Component'/>
+        <page name='Break a Dollar Challenge'/>
+        <page name='Brick Weight Puzzle'/>
+        <page name='Capitalized vs Uppercased'/>
+        <page name='Caseless Enum Error (Fixed)'/>
+        <page name='Case Let Binding for Result'/>
+        <page name='CGGeometry'/>
+        <page name='Type Cast and Compare to nil'/>
+        <page name='Throw and Compare to Nil'/>
+        <page name='Let It Be Song'/>
+        <page name='Enumrate Dictionary'/>
+    </pages>
+</playground>

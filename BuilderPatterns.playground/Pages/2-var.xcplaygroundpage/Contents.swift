@@ -61,7 +61,7 @@ import UIKit
  */
 
 struct Goal {
-    enum Error: ErrorType {
+    enum GoalError: Error {
         case invalidName
         case invalidAmount
     }

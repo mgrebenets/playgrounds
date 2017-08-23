@@ -1,7 +1,7 @@
 import UIKit
 
 public struct GoalWithVarBuilder {
-    enum Error: ErrorType {
+    enum GoalError: Error {
         case invalidName
         case invalidAmount
     }
@@ -13,8 +13,8 @@ public struct GoalWithVarBuilder {
     // The pure builder pattern recomments to make designated initalizer as private
     // Basically there's no way to create a model other than using builder
     private init(name: String, amount: Double, picture: UIImage? = nil) throws {
-        guard !name.characters.isEmpty else { throw Error.invalidName }
-        guard amount > 0 else { throw Error.invalidAmount }
+        guard !name.characters.isEmpty else { throw GoalError.invalidName }
+        guard amount > 0 else { throw GoalError.invalidAmount }
 
         self.name = name
         self.amount = amount
