@@ -8,7 +8,7 @@ let imagePath = "imagePath"
 let imagePath2 = "/imagePath"
 ("/" as NSString).appendingPathComponent(imagePath2)
 
-("/" as NSString).appendingPathComponent("/path")   // "/path"
-("/" as NSString).appendingPathComponent("path")   // "/path"
+("old/" as NSString).appendingPathComponent("/new")   // "old/new"
+("old/" as NSString).appendingPathComponent("new")   // "old/new"
 
 //: [Next](@next)
