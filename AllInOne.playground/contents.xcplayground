@@ -56,5 +56,18 @@
         <page name='Localization'/>
         <page name='Calendar'/>
         <page name='NoValue'/>
+        <page name='Collapsd Nested If Statement'/>
+        <page name='No Value'/>
+        <page name='Compare 2 Arrays'/>
+        <page name='Compare to Optional'/>
+        <page name='Switch on Optionals'/>
+        <page name='Substrings and MRZ'/>
+        <page name='Refactoring'/>
+        <page name='PercentEscaped'/>
+        <page name='UIViewController Outlet'/>
+        <page name='Date Components'/>
+        <page name='Nil FlatMap Init'/>
+        <page name='Range Expression'/>
+        <page name='While list'/>
     </pages>
 </playground>
