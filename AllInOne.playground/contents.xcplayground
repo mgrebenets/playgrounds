@@ -69,5 +69,6 @@
         <page name='Nil FlatMap Init'/>
         <page name='Range Expression'/>
         <page name='While list'/>
+        <page name='SegueType'/>
     </pages>
 </playground>
